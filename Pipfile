@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+japanize-matplotlib = "*"
+scikit-learn = "*"
+seaborn = "*"
+statsmodels = "*"
+scipy = "*"
+python-dateutil = "*"
+jupyterlab = "*"
+fbprophet = "*"
+pandarallel = "*"
+pystan = "==2.19.1.1"
+holoviews = "*"
+plotly = "*"
+lightgbm = "*"
+optuna = "*"
+kaggle = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
